@@ -1,10 +1,11 @@
 import Main from "./Components/Main";
+import MealOptions from "./Components/MealOptions";
 
 export default function App() {
   return (
     <div className="App">
-      <h1 className='logo'>What's for dinner?</h1>
       <Main />
+      <MealOptions />
     </div>
   );
 }

@@ -2,16 +2,19 @@ html {
   box-sizing: border-box;
 }
 
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+}
+
 body {
   width: 100vw;
   height: 100vh;
   margin: 0;
   font-family: 'Lato', sans-serif;
-  background-image: url(./images/main-back.jpg);
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end
 }
 
 button:hover {
@@ -25,40 +28,47 @@ button:hover {
   font-weight: 300;
   text-shadow: 2px 2px 2px #000;
   text-align: center;
-  margin-bottom: 460px;
   background-color: rgba(29, 26, 46, 0.838);
   line-height: 2.50em;
 }
 
 .main-container {
-  height: 20%;
-  align-items: center;
-  padding: 20px 5px;
-  margin-bottom: 20px;
-  background-color: rgba(251, 250, 250, 0.368);
+  height: 100%;
+  background-image: url(./images/main-back.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.main-welcome-text {
+.welcome-container {
+  align-items: center;
+  padding: 20px 5px;
+  background-color: rgba(255, 250, 250, 0.457);
+  margin-bottom: 30px;
+}
+
+.welcome-text {
   margin: 15px 25px;
   color: white;
 }
 
-.main-welcome-header {
-  font-size: 1.2em;
-  text-shadow: 0.5px 0.5px 0.5px #000;
+.welcome-header {
+  font-size: 1.3em;
+  text-shadow: 1px 1px 1px #000;
   letter-spacing: 1px;
 }
 
-.main-welcome-msg {
+.welcome-msg {
   font-size: 1.1em;
   width: 90%;
   color: white;
   font-weight: 300;
-  text-shadow: 0.5px 0.5px 0.5px #000;
+  text-shadow: 1px 1px 1px #000;
   letter-spacing: 0.5px;
 }
 
-.main-btn {
+.btn {
   padding: 26px 20px;
   width: 96%;
   border-radius: 50px;
@@ -66,6 +76,11 @@ button:hover {
   font-size: 1.3em;
   color: white;
   background-color: rgb(29, 26, 46);
+}
+
+.options-container {
+  background-color: rgba(255, 250, 250, 0.457);
+  margin: 10px;
 }
 
 
