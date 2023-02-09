@@ -1,4 +1,4 @@
-export default function Options() {
+export default function MealOptions() {
     return(
         <div className='options-container' id='options-container'>
             <h1>Choose Your Meal</h1>
