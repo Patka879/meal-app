@@ -6,40 +6,54 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-image: url(./images/main-back.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 button:hover {
   cursor: pointer;
 }
 
-h4 { 
-  font-size: 1.1em;
-}
-
 .main-container {
-  background-color: grey;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  height: 20%;
   align-items: center;
   padding: 20px 5px;
+  margin-bottom: 20px;
+  background-color: rgba(190, 190, 190, 0.477);
 }
 
-.welcome-msg {
-  margin: 15px 10px;
-  text-align: center;
+.main-welcome-text {
+  margin: 15px 25px;
   color: white;
 }
 
+.main-welcome-header {
+  font-size: 1.2em;
+  text-shadow: 0.5px 0.5px 0.5px #000;
+  letter-spacing: 1px;
+}
+
+.main-welcome-msg {
+  font-size: 1.1em;
+  width: 90%;
+  color: white;
+  font-weight: 300;
+  text-shadow: 0.5px 0.5px 0.5px #000;
+  letter-spacing: 0.5px;
+}
+
 .main-btn {
-  padding: 20px 20px;
-  width: 80%;
+  padding: 26px 20px;
+  width: 96%;
   border-radius: 50px;
   border: none;
   font-size: 1.3em;
   color: white;
-  background-color: rgb(16, 12, 38);
+  background-color: rgb(29, 26, 46);
 }
 
 

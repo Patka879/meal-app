@@ -1,7 +1,10 @@
 export default function Main() {
     return (
         <div className='main-container'>
-            <h4 className='welcome-msg'>Welcome to our meal planning app! Here You can add Your meals, recipies and generate shopping lists!</h4>
+            <div className='main-welcome-text'>
+                <h1 className='main-welcome-header'>Welcome to Your meal planner!</h1>
+                <h4 className='main-welcome-msg'>We are here to help Ypu create Your meal list, plan You next meal and create groceries list</h4>
+            </div>
             <button className='main-btn'>Let's see what's for dinner!</button>
         </div>
     )
