@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h4 { 
+  font-size: 1.1em;
+}
+
+.main-container {
+  background-color: grey;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 5px;
+}
+
+.welcome-msg {
+  margin: 15px 10px;
+  text-align: center;
+  color: white;
+}
+
+.main-btn {
+  padding: 20px 20px;
+  width: 80%;
+  border-radius: 50px;
+  border: none;
+  font-size: 1.3em;
+  color: white;
+  background-color: rgb(16, 12, 38);
+}
+
+
+
