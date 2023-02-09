@@ -21,6 +21,16 @@ button:hover {
   cursor: pointer;
 }
 
+h1 {
+  background-color: rgba(29, 26, 46, 0.838);
+  width: 100%;
+  color: white;
+  text-align: center;
+  line-height: 2em;
+  margin-bottom: 60px;
+  font-size: 2.1em;
+}
+
 .logo {
   font-family: 'Shrikhand', cursive;
   color: #fff;
@@ -80,8 +90,23 @@ button:hover {
 
 .options-container {
   height: 100%;
-  background-color: rgba(255, 250, 250, 0.457);
-  margin: 10px;
+  background-color: rgb(234, 230, 230);
+  margin: 40px 10px 100px 10px;
+  border-radius: 30px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.option {
+  background-color: rgb(255, 187, 0);
+  height: 80px;
+  margin-bottom: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: rgb(29, 26, 46);
+  font-size: 1.1em
 }
 
 
