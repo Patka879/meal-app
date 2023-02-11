@@ -11,14 +11,14 @@ export default function MealOptions() {
             <h1>Choose Your Meal</h1>
             <a className='option option-breakfast'>
                 {/* <BreakfastIcon className='option-img' /> */}
-                <h2>Breakfast</h2>
+                Breakfast
             </a>
             <a className='option option-lunch'>
                 <img src={Lunch} className='option-img'></img>
-                <h2>Lunch</h2>
+                Lunch
             </a>
             <a className='option option-dinner'>\
-                <h2>Dinner</h2>
+                Dinner
                 <img src={Dinner} className='option-img'></img>
             </a>
         </div>
