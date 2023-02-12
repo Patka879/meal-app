@@ -85,26 +85,17 @@ button:hover {
 
 .options-container {
   height: 100%;
-  background-color: rgb(29, 26, 46);
-  color: #fff;
+  background-color: salmon;
+  color: rgb(25, 25, 25);
+  padding: 30px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.option {
-  background-color: rgb(255, 187, 0);
-  height: 80px;
-  margin-bottom: 40px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  color: rgb(29, 26, 46);
-  font-size: 1.1em
-}
-
 .burger-btn-container {
   cursor: pointer;
+  width: 100%
 }
 
 .bar1, .bar2, .bar3 {
@@ -123,6 +114,54 @@ button:hover {
 
 .change .bar3 {
   transform: translate(0, -11px) rotate(45deg);
+}
+
+.option-hello-msg {
+  text-align: left;
+  width: 100%;
+  color:#333;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.option-header {
+  font-weight: 600;
+  font-size: 1.7em;
+  margin-top: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.option-search {
+  height: 50px;
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  text-indent: 30px;
+  background-color: rgb(253, 178, 169);
+  margin-bottom: 30px;
+}
+
+.option-search::placeholder {
+  color:#333;
+}
+
+.meal-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.option {
+  background-color: rgb(255, 187, 0);
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(29, 26, 46);
+  font-size: 1.1em;
+  width: 25%
 }
 
 
