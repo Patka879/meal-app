@@ -160,8 +160,12 @@ button:hover {
   flex-direction: column;
   align-items: center;
   color: rgb(29, 26, 46);
-  font-size: 1.1em;
+  font-size: 1.3em;
   width: 25%
+}
+
+.option-img {
+  width: 60%;
 }
 
 

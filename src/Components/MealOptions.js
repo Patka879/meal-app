@@ -23,15 +23,15 @@ export default function MealOptions() {
             </input>
             <div className="meal-options">
                 <a className='option option-breakfast'>
-                    <Breakfast />
+                    <Breakfast className='option-img' />
                     Breakfast
                 </a>
                 <a className='option option-lunch'>
-                    <Lunch />
+                    <Lunch className='option-img' />
                     Lunch
                 </a>
                 <a className='option option-dinner'>
-                    <Dinner />
+                    <Dinner className='option-img' />
                     Dinner
                 </a>
             </div>
