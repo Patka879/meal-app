@@ -1,6 +1,5 @@
-import {Breakfast, Lunch, Dinner} from '../images/index'
-
-
+import {Breakfast, Lunch, Dinner, Snack, Sweets, Soups} from '../images/index'
+import MealOfTheDay from './MealOfTheDay';
 
 function toggleChange() {
     const burgerBtn = document.getElementById('burger-btn')
@@ -34,7 +33,20 @@ export default function MealOptions() {
                     <Dinner className='option-img' />
                     Dinner
                 </a>
+                <a className='option option-dinner'>
+                    <Snack   className='option-img' />
+                    Dinner
+                </a>
+                <a className='option option-dinner'>
+                    <Soups className='option-img' />
+                    Dinner
+                </a>
+                <a className='option option-dinner'>
+                    <Sweets className='option-img' />
+                    Dinner
+                </a>
             </div>
+            <MealOfTheDay />
         </div>
     )
 }

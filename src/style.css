@@ -85,9 +85,9 @@ button:hover {
 
 .options-container {
   height: 100%;
-  background-color: salmon;
-  color: rgb(25, 25, 25);
-  padding: 30px 20px;
+  background-color: #f78465;
+  color: #2c0000;
+  padding: 40px 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -121,13 +121,13 @@ button:hover {
   width: 100%;
   color:#333;
   font-weight: 300;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .option-header {
   font-weight: 600;
   font-size: 1.7em;
-  margin-top: 0;
+  margin: 0 0 15px 0;
   text-align: left;
   width: 100%;
 }
@@ -138,34 +138,36 @@ button:hover {
   border-radius: 20px;
   border: none;
   text-indent: 30px;
-  background-color: rgb(253, 178, 169);
+  background-color: #fab7a7;
   margin-bottom: 30px;
+  font-size: 1em;
 }
 
 .option-search::placeholder {
-  color:#333;
+  color:#b57569;
 }
 
 .meal-options {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .option {
-  background-color: rgb(255, 187, 0);
   height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: rgb(29, 26, 46);
-  font-size: 1.3em;
-  width: 25%
+  width: 30%;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 
 .option-img {
-  width: 60%;
+  width: 80%;
+  margin-bottom: 10px;
 }
 
 
