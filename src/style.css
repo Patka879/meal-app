@@ -64,7 +64,7 @@ button:hover {
   letter-spacing: 1px;
 }
 
-.welcome- {
+.welcome-text {
   font-size: 1.1em;
   width: 90%;
   color: white;
@@ -168,6 +168,28 @@ button:hover {
 .option-img {
   width: 80%;
   margin-bottom: 10px;
+}
+
+.motd-container {
+  background-image: url('./images/pexels-photo-7130475.webp');
+  opacity: 0.9;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  border-radius: 30px;
+  color:#fff
+}
+
+.motd-header { 
+  font-weight: 600;
+  font-size: 1.7em;
+  margin: 20px;
+  text-align: center;
+}
+
+.motd {
+  font-size: 2em;
+  text-align: center;
 }
 
 

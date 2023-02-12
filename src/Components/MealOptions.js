@@ -46,7 +46,10 @@ export default function MealOptions() {
                     Dinner
                 </a>
             </div>
-            <MealOfTheDay />
+            <div className="motd-container">
+                    <h1 className='motd-header'>Check out today's meal of the day</h1>
+                    <h2 className='motd'>Spaghetti Bolognese</h2>
+                </div>
         </div>
     )
 }
