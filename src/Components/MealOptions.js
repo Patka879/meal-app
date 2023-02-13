@@ -1,4 +1,4 @@
-import {Breakfast, Lunch, Dinner, Snack, Sweets, Soups} from '../images/index'
+import {Breakfast, Lunch, Dinner, Snack, Sweets, Soups, RandomMeal} from '../images/index'
 import MealOfTheDay from './MealOfTheDay';
 
 function toggleChange() {
@@ -46,9 +46,10 @@ export default function MealOptions() {
                     Dinner
                 </a>
             </div>
-            <div className="motd-container">
-                    <h1 className='motd-header'>Check out today's meal of the day:</h1>
-                    <h2 className='motd'>Spaghetti Bolognese</h2>
+            <div className="random-container">
+                    <h2 className='random-txt'>Click here</h2>
+                    <RandomMeal className='random-img' />
+                    <h2 className='random-txt'>to get randome recipe</h2>
                 </div>
         </div>
     )
