@@ -43,13 +43,12 @@ export default function MealOptions() {
                 </a>
                 <a className='option option-dinner'>
                     <Sweets className='option-img' />
-                    Dinner
+                    Sweets
                 </a>
             </div>
             <div className="random-container">
-                    <h2 className='random-txt'>Click here</h2>
+                    <h2 className='random-txt'>Random meal</h2>
                     <RandomMeal className='random-img' />
-                    <h2 className='random-txt'>to get randome recipe</h2>
                 </div>
         </div>
     )

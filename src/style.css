@@ -137,27 +137,26 @@ button:hover {
   text-align: left;
   width: 100%;
   color:#333;
-  font-weight: 300;
   margin-bottom: 10px;
 }
 
 .option-header {
   font-weight: 600;
   font-size: 1.7em;
-  margin: 0 0 15px 0;
+  margin: 0 0 25px 0;
   text-align: left;
   width: 100%;
 }
 
 .option-search {
-  height: 50px;
+  height: 60px;
   width: 100%;
   border-radius: 20px;
   border: none;
   text-indent: 30px;
   background-color: #fab7a7;
-  margin-bottom: 30px;
-  font-size: 1em;
+  margin-bottom: 50px;
+  font-size: 1.2em;
 }
 
 .option-search::placeholder {
@@ -178,9 +177,9 @@ button:hover {
   flex-direction: column;
   align-items: center;
   color: rgb(29, 26, 46);
-  width: 30%;
+  width: 33.3%;
   font-weight: 600;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .option-img {
@@ -191,26 +190,27 @@ button:hover {
 .random-container {
   background-color: #273b7a;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  height: 250px;
+  justify-content: center;
+  height: 100px;
   width: 100%;
   border-radius: 30px;
     -webkit-box-shadow: 2px 5px 22px -5px rgba(66, 68, 90, 1);
     -moz-box-shadow: 2px 5px 22px -5px rgba(66, 68, 90, 1);
   box-shadow: 2px 5px 22px -5px rgba(66, 68, 90, 1);
+  margin-top: 80px;   
 }
 
 .random-txt {
-  font-size: 1.6em;
+  font-size: 2em;
   text-align: center;
   color: #F2EFE9;
   font-weight: 400;
+  margin-right: 20px;
 }
 
 .random-img {
-  width: 50%;
+  width: 15%;
 }
 
 
