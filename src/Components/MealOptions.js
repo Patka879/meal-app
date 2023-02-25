@@ -1,9 +1,12 @@
 import {Breakfast, Lunch, Dinner, Snack, Sweets, Soups, RandomMeal} from '../images/index'
+import DropdwnMenu from './DropdwnMenu';
 import MealOfTheDay from './MealOfTheDay';
 
 function toggleChange() {
     const burgerBtn = document.getElementById('burger-btn')
+    const dropdwnMenu = document.getElementById('dropdwn-menu')
     burgerBtn.classList.toggle("change");
+    dropdwnMenu.classList.toggle('hidden')
 }
 
 export default function MealOptions() {
@@ -14,6 +17,7 @@ export default function MealOptions() {
                 <div class="bar2"></div>
                 <div class="bar3"></div>
             </div>
+            <DropdwnMenu />
             <h3 className='option-hello-msg'>Hello Friend!</h3>
             <h1 className='option-header'>Which meal idea <br></br> are You looking for?</h1>
             <input 
