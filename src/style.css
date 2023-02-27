@@ -170,7 +170,7 @@ button:hover {
   flex-direction: row;
   width: 100%;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .option {
@@ -190,11 +190,11 @@ button:hover {
 }
 
 .random-container {
-  background-color: #273b7a;
+  background-color: #2f417a;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
+  height: 90px;
   width: 100%;
   border-radius: 30px;
     -webkit-box-shadow: 2px 5px 22px -5px rgba(66, 68, 90, 1);
@@ -207,7 +207,7 @@ button:hover {
   font-size: 2em;
   text-align: center;
   color: #F2EFE9;
-  font-weight: 400;
+  font-weight: 600;
   margin-right: 20px;
 }
 
