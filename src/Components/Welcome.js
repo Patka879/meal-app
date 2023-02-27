@@ -2,6 +2,7 @@ export default function Welcome() {
 
     function handleClick() {
         document.getElementById('welcome-container').style.display = 'none'
+        document.getElementById('options-container').style.display = 'flex'
     }
 
     return(

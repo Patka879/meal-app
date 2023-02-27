@@ -1,6 +1,6 @@
 import {Breakfast, Lunch, Dinner, Snack, Sweets, Soups, RandomMeal} from '../images/index'
 import DropdwnMenu from './DropdwnMenu';
-import MealOfTheDay from './MealOfTheDay';
+
 
 function toggleChange() {
     const burgerBtn = document.getElementById('burger-btn')
