@@ -1,23 +1,10 @@
 import {Breakfast, Lunch, Dinner, Snack, Sweets, Soups, RandomMeal} from '../images/index'
-import DropdwnMenu from './DropdwnMenu';
+import Navigation from './Navigation';
 
-
-function toggleChange() {
-    const burgerBtn = document.getElementById('burger-btn')
-    const dropdwnMenu = document.getElementById('dropdwn-menu')
-    burgerBtn.classList.toggle("change");
-    dropdwnMenu.classList.toggle('hidden')
-}
 
 export default function MealOptions() {
     return(
         <div className='options-container' id='options-container'>
-            <div className='burger-btn-container' id='burger-btn' onClick={toggleChange}>
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
-            <DropdwnMenu />
             <h3 className='option-hello-msg'>Hello Friend!</h3>
             <h1 className='option-header'>Which meal idea <br></br> are You looking for?</h1>
             <input 
@@ -51,9 +38,10 @@ export default function MealOptions() {
                 </a>
             </div>
             <div className="random-container">
-                    <h2 className='random-txt'>Random meal</h2>
-                    <RandomMeal className='random-img' />
-                </div>
+                <h2 className='random-txt'>Random meal</h2>
+                <RandomMeal className='random-img' />
+            </div>
+            <Navigation />
         </div>
     )
 }
