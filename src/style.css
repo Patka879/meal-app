@@ -115,52 +115,41 @@ button:hover {
   animation: fadeIn 1s;
 }
 
-.burger-btn-container {
-  cursor: pointer;
-  width: 100%;
-  margin-top: 20px;
-}
-
-.bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: #333;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
-.change .bar1 {
-  transform: translate(0, 11px) rotate(-45deg);
-}
-
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-  transform: translate(0, -11px) rotate(45deg);
-}
-
 .navigation {
-  display: flex;
   display: flex;
     position: fixed;
       bottom: 0;
       left: 0;
       right: 0;
   font-size: 1.2em;
-  background-color: #333;
+  height: 11%;
+  border-top: 1.5px solid black;
+}
+
+.nav-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  padding: 10px 0;
+  border-right: 1.5px solid black;
 }
 
 .nav-link {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color:#b57569;
   height: 100%;
   flex: 1;
   justify-content: center;
   padding: 10px;
   text-align: center;
-  border-right: 1px solid #b57569;
+  color: black;
+}
+
+.nav-img {
+  width: 50%;
 }
 
 .nav-link:last-child {
@@ -236,7 +225,7 @@ button:hover {
     -webkit-box-shadow: 2px 5px 22px -5px rgba(66, 68, 90, 1);
     -moz-box-shadow: 2px 5px 22px -5px rgba(66, 68, 90, 1);
   box-shadow: 2px 5px 22px -5px rgba(66, 68, 90, 1);
-  margin-top: 80px;   
+   
 }
 
 .random-txt {
