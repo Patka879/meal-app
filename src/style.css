@@ -141,16 +141,30 @@ button:hover {
 
 .navigation {
   display: flex;
-  flex-direction: row;
-  position: absolute;
-    bottom: 0;
+  display: flex;
+    position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+  font-size: 1.2em;
+  background-color: #333;
 }
 
 .nav-link {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color:#b57569;
-  margin: 20px;
-  font-size: 1em;
+  height: 100%;
+  flex: 1;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  border-right: 1px solid #b57569;
+}
+
+.nav-link:last-child {
+  border-right: none;
 }
 
 .hidden {
